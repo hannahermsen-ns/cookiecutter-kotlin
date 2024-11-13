@@ -1,12 +1,12 @@
 {
-    "name": "kotlin_project",
+    "name": "dojo_assignment",
     "repo_name": "{{ cookiecutter.name | lower | replace(' ', '_') }}",
     "package_name": "me.ivmg.{{ cookiecutter.repo_name | replace('-', '') | replace('_', '') }}",
     "package_path": "{{ cookiecutter.package_name | replace('.', '/') }}",
     "group": "{{ cookiecutter.package_name }}",
     "version": "0.0.1-SNAPSHOT",
-    "kotlin_version": "1.2.10",
-    "gradle_version": "3.5-rc-2",
+    "kotlin_version": "2.0.21",
+    "gradle_version": "8.11",
     "use_git": "y",
     "_copy_without_render": [
         "gradlew",
